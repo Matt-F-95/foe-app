@@ -192,23 +192,25 @@ footer {
 
 /* MENU ////////////////////////////////////////////// */
 #menu{
-    background-color: #ffcb33;
+    background-color: #cb1017;
     padding-top: 80px;
 }
 
 #menu header{
     padding: 15px;
-    background-color: #4f3000;
+    background-color: #cb1017;
     color: #FFF;
     font-size: 16pt;
-    border-bottom: solid 5px #FFF;
+    font-weight: 900;
+    border-bottom: solid 5px #ffcb33;
 }
 
 #menu > div{
-    background-color: #FFF;
     font-size: 14pt;
+    font-weight: 900;
+    color: #fff;
     padding: 15px;
-    border-bottom: #4f3000 4px solid;
+    border-bottom: #ffcb33 4px solid;
     cursor:pointer;
 }
 
@@ -222,7 +224,7 @@ footer {
 /* header/footer */
 
 header img {
-    width: 35px;
+    width: 30px;
     height: auto;
     float: left;
     margin-right: 85px;
@@ -371,7 +373,7 @@ input, select, textarea {
 }
 
 input[type=submit] {
-    background-color: #043519;
+    background-color: #cb1017;
     color: #FFF;
     font-size: 18px;
     margin-top: 15px;
@@ -397,17 +399,18 @@ input[type=submit] {
 /* header/footer */
 #rest1 header {
     font-family: "Rest1FontTitle", sans-serif;
-    background: #043519;
-    border-bottom: solid 5px #0f6b37;
+    background: #cb1017;
+    border-bottom: solid 5px #ffcb33;
 }
 
 #rest1 footer {
-    background: #043519;
+    background: #cb1017;
 }
 
 /* footer subnav */
 #rest1 .homeIcon {
     margin-left: 55px;
+    /* background: #ffcb33 !important; */
 }
 
 #rest1 .specialsIcon {
