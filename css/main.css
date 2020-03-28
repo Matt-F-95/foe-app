@@ -113,7 +113,7 @@ footer {
 }
 
 #landing header {
-    border-bottom: solid 5px #FFF;
+    border-bottom: solid 5px #ffcb33;
     background: #cb1017;
     color: #FFF;
     height: 103px;
@@ -130,12 +130,15 @@ footer {
 
 .landingLogos {
     position: relative;
-    border: dotted 1px #342000;
-    padding: 20px;
+    border: solid 1px #fff;
+   
+    padding: 15px;
     padding-top: 50px;
     margin: 20px;
     text-align: center;
 }
+
+
 
 .landingLogos:nth-child(4) {
     padding: 20px;
