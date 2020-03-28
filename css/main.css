@@ -1,0 +1,484 @@
+/* RESET CSS ////////////////////////////////////////// */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* FONTS /////////////////////////////////////////////// */
+
+/* app font */
+@font-face {
+    font-family: "AppFont";
+    src: url(fonts/Attractive-Regular.otf);
+}
+
+/* restaurant 1 fonts */
+@font-face {
+    font-family: "Rest1FontTitle";
+    src: url(fonts/HammersmithOne.ttf);
+}
+
+@font-face {
+    font-family: "Rest1FontBody";
+    src: url(fonts/Quicksand-Regular.otf);
+}
+
+@font-face {
+    font-family: "Rest1FontBodyBold";
+    src: url(fonts/Quicksand-Bold.otf);
+}
+
+/* GENRAL APP STYLES /////////////////////////////////// */
+
+body {
+    font-size: 14px;
+    overflow: hidden;
+}
+
+main {
+    position: absolute;
+    width: 375px;
+    height: 667px;
+    box-shadow: -5px 0 10px rgba(0, 0, 0, 0.5);
+}
+
+header {
+    width: 375px;
+    height: 60px;
+    position: absolute;
+    top: 0;
+    padding: 15px;
+}
+
+section {
+    position: absolute;
+    top: 60px;
+    width: 375px;
+    height: 547px;
+    background: #FFF;
+    overflow: auto;
+    padding: 20px;
+}
+
+footer {
+    width: 375px;
+    height: 60px;
+    position: absolute;
+    bottom: 0;
+}
+
+.hamburger{
+    cursor: pointer;
+}
+
+/* SPLASH SCREEN ////////////////////////////////////////// */
+
+#splash {
+    background-image: url(../img/splash-bg.jpg);
+    background-size: cover;
+}
+
+#splash header {
+    font-family: "AppFont", sans-serif;
+    border-bottom: solid 5px #FFF;
+    font-size: 35px;
+    color: #FFF;
+    padding: 20px;
+    height: 90px;
+    text-align: center;
+}
+
+#splash img {
+    position: absolute;
+    left: 50%;
+    top: 45%;
+    transform: translate(-50%, -50%);
+    width: 173px;
+    height: auto;
+}
+/* 
+#splash footer {
+    height: 10px;
+    background: #cb1017;
+} */
+
+/* LANDING SCREEN ///////////////////////////////////////// */
+
+#landing {
+    font-family: "AppFont", sans-serif;
+    background: #cb1017;
+    padding-top: 130px;
+}
+
+#landing header {
+    border-bottom: solid 5px #FFF;
+    background: #cb1017;
+    color: #FFF;
+    height: 103px;
+    padding: 20px;
+    font-size: 30px;
+    line-height: 100%;
+    text-align: center;
+}
+
+#landing header img {
+    width: 57px;
+    height: auto;
+}
+
+.landingLogos {
+    position: relative;
+    border: dotted 1px #342000;
+    padding: 20px;
+    padding-top: 50px;
+    margin: 20px;
+    text-align: center;
+}
+
+.landingLogos:nth-child(4) {
+    padding: 20px;
+}
+
+.fineDining {
+    position: absolute;
+    width: 125px;
+    height: auto;
+    right: -8px;
+    top: 15px;
+}
+
+.casualDining {
+    position: absolute;
+    width: 150px;
+    height: auto;
+    left: -8px;
+    top: 15px;
+}
+
+.fastFoodDining {
+    position: absolute;
+    width: 172px;
+    height: auto;
+    right: -8px;
+    top: 15px;
+}
+
+.crispy {
+    width: 150px;
+    height: auto;
+    margin-top: 20px;
+}
+
+.ceviche {
+    width: 150px;
+    height: auto;
+}
+
+.hearth {
+    width: 220px;
+    height: auto;
+    margin-left: 30px;
+}
+
+#landing footer {
+    height: 15px;
+    background: #ffcb33;
+}
+
+/* MENU ////////////////////////////////////////////// */
+#menu{
+    background-color: #ffcb33;
+    padding-top: 80px;
+}
+
+#menu header{
+    padding: 15px;
+    background-color: #4f3000;
+    color: #FFF;
+    font-size: 16pt;
+    border-bottom: solid 5px #FFF;
+}
+
+#menu > div{
+    background-color: #FFF;
+    font-size: 14pt;
+    padding: 15px;
+    border-bottom: #4f3000 4px solid;
+    cursor:pointer;
+}
+
+#menu > div:last-of-type{
+    border-bottom-width: 0;
+}
+
+
+/* SHARED RESTAURANT STLYES /////////////////////////////////// */
+
+/* header/footer */
+
+header img {
+    width: 35px;
+    height: auto;
+    float: left;
+    margin-right: 85px;
+}
+
+header h1 {
+    color: #FFF;
+}
+
+footer div {
+    float: left;
+    text-align: center;
+    overflow: auto;
+    font-size: 12px;
+    padding: 10px;
+    color: #FFF;
+}
+
+footer img {
+    height: 25px;
+    width: auto;
+}
+
+/* general section */
+.sectionContainer {
+    border: dotted 1px #000;
+    text-align: center;
+    overflow: auto;
+    color: #000;
+}
+
+/* home section */
+.photoAddress {
+    padding: 0 15px;
+    text-align: left;
+}
+
+.homeImg {
+    width: 148px;
+    height: auto;
+    float: left;
+    margin-right: 15px;
+}
+
+.photoAddress h2 {
+    line-height: 80%;
+    margin-bottom: 5px;
+}
+
+.photoAddress p {
+    font-size: 14px;
+    line-height: 130%;
+}
+
+.rating {
+    width: 100px;
+    height: auto;
+    margin-top: 5px;
+}
+
+.photoCount {
+    border: solid 1px #000;
+    padding: 1px;
+    text-align: center;
+    width: 148px;
+    margin-top: -15px;
+}
+
+.hours {
+    margin-top: 20px;
+}
+
+.hours h2 {
+    margin-left: 60px;
+    border-bottom: solid 1px #000;
+    width: 210px;
+}
+
+.hours p {
+    margin-top: 5px;
+}
+
+.reviews {
+    margin: 20px;
+}
+
+.profile {
+    text-align: left;
+    border-bottom: solid 1px #000;
+    overflow: auto;
+    padding-bottom: 15px;
+}
+
+.profile img {
+    width: 50px;
+    height: auto;
+    float: left;
+    margin-right: 15px;
+}
+
+.profile p:last-child {
+    margin-top: 5px;
+}
+
+.reviews p:last-child {
+    text-align: left;
+    margin-top: 10px;   
+}
+
+/* general specials/reservations */
+
+
+/* specials section */
+
+
+/* reservations section */
+
+
+/* reservations section */
+.reservations .sectionContainer {
+    border-top: none;
+    text-align: left;
+    padding: 10px;
+    padding-top: 0;
+}
+
+.reservations h2 {
+    margin-top: 10px;
+}
+
+label {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+input, select, textarea {
+    padding: 5px;
+    border: solid 1px;
+    width: 100%;
+    font-size: 14px;
+    border-radius: 5px;
+    color: #777;
+    background: #FFF;
+}
+
+input[type=submit] {
+    background-color: #043519;
+    color: #FFF;
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+
+/* RESTAURANT 1 ////////////////////////////////////// */
+
+/* general */
+#rest1 {
+    font-family: "Rest1FontBody", sans-serif;
+}
+
+/* general section */
+#rest1 .sectionContainer {
+    border-bottom-color: #342000;
+}
+
+#rest1 .profileBold {
+    font-family: "Rest1FontBodyBold", sans-serif;
+}
+
+/* header/footer */
+#rest1 header {
+    font-family: "Rest1FontTitle", sans-serif;
+    background: #043519;
+    border-bottom: solid 5px #0f6b37;
+}
+
+#rest1 footer {
+    background: #043519;
+}
+
+/* footer subnav */
+#rest1 .homeIcon {
+    margin-left: 55px;
+}
+
+#rest1 .specialsIcon {
+    margin-left: 30px;
+    margin-right: 25px;
+}
+
+#rest1 .logo {
+    width: 80%;
+    height: auto;
+    margin: 15px 0;
+}
+
+/* home */
+#rest1 .bar {
+    background: #b0d461;
+    padding: 3px;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+#rest1 h2 {
+    font-family: "Rest1FontTitle", sans-serif;
+}
+
+#rest1 .photoCount {
+    border-color: #569772;
+}
+
+#rest1 .hours h2 {
+    color: #177535;
+    border-bottom-color: #177535;
+}
+
+#rest1 .hours p {
+    color: #7fc193;
+}
+
+#rest1 .profile {
+    border-bottom-color: #177535;
+}
+
+/* general specials/reservations */
+
+
+/* specials */
+
+
+/* reservations */
+
+
+
+/* RESTAURANT 2 STYLES ////////////////////////////////////// */
+
+
+
+/* home */
+
+
+/* specials */
+
+
+/* reservations */
+
+
+
+/* RESTAURANT 3 STYLES ////////////////////////////////////// */
+
+
+
+/* home */
+
+
+/* specials */
+
+
+/* reservations */
