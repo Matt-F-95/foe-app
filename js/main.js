@@ -51,7 +51,7 @@ $("#logo1").click(function(){
     gsap.to("#landing", {duration: 0.5, 
                          opacity: 0, 
                          onComplete: loadRest,
-                         onCompleteParams: ["#rest1", "#0f6b37"]});
+                         onCompleteParams: ["#rest1", "#ffcb33"]});
 });
 
 $("#logo2").click(function(){
