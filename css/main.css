@@ -109,7 +109,7 @@ footer {
 #landing {
     font-family: "AppFont", sans-serif;
     background: #cb1017;
-    padding-top: 130px;
+    padding-top: 110px;
 }
 
 #landing header {
@@ -230,8 +230,10 @@ header img {
     margin-right: 85px;
 }
 
+
+
 header h1 {
-    color: #FFF;
+    color: #fff;
 }
 
 footer div {
@@ -257,6 +259,10 @@ footer img {
 }
 
 /* home section */
+
+.home {
+    background: #690000;
+}
 .photoAddress {
     padding: 0 15px;
     text-align: left;
@@ -352,7 +358,8 @@ footer img {
 
 .specials h3{
     text-align: left;
-    margin-left: 20px;
+    margin-left: 8px;
+    
 }
 
 .specials img {
@@ -366,7 +373,8 @@ footer img {
     margin-left: 150px;
     margin-top: -85px;
     font-weight: 900;
-    width: 100px;
+    width: 130px;
+    text-align: center;
 
 
 }
@@ -446,11 +454,13 @@ input[type=submit] {
 /* general */
 #rest1 {
     font-family: "Rest1FontBody", sans-serif;
+    color: #fff;
 }
 
 /* general section */
 #rest1 .sectionContainer {
-    border-bottom-color: #342000;
+    border-bottom-color: #ffcb33;
+    color: #fff;
 }
 
 #rest1 .profileBold {
@@ -487,7 +497,7 @@ input[type=submit] {
 
 /* home */
 #rest1 .bar {
-    background: #b0d461;
+    background: #ffcb33;
     padding: 3px;
     font-size: 20px;
     margin-bottom: 15px;
@@ -495,23 +505,26 @@ input[type=submit] {
 
 #rest1 h2 {
     font-family: "Rest1FontTitle", sans-serif;
+    font-size: 20pt;
+    text-align: center;
 }
 
 #rest1 .photoCount {
-    border-color: #569772;
+    border-color: #ffcb33;
 }
 
 #rest1 .hours h2 {
-    color: #177535;
-    border-bottom-color: #177535;
+    color: #ffcb33;
+    border-bottom-color: #ffcb33;
 }
 
 #rest1 .hours p {
-    color: #7fc193;
+    color: #ffcb33;
+
 }
 
 #rest1 .profile {
-    border-bottom-color: #177535;
+    border-bottom-color: #ffcb33;
 }
 
 /* general specials/reservations */
@@ -530,6 +543,93 @@ input[type=submit] {
 
 /* home */
 
+#rest2 {
+    font-family: "Rest1FontBody", sans-serif;
+    color: #fff;
+}
+
+/* general section */
+#rest2 .sectionContainer {
+    border-bottom-color: #ffcb33;
+    color: #fff;
+}
+
+#rest2 .profileBold {
+    font-family: "Rest1FontBodyBold", sans-serif;
+}
+
+/* header/footer */
+#rest2 header {
+    font-family: "Rest1FontTitle", sans-serif;
+    background: #cb1017;
+    border-bottom: solid 5px #ffcb33;
+}
+
+#rest2 h1 {
+    color: #fff;
+    text-align: left;
+}
+
+#rest2 header img {
+    margin-right: 50px;
+}
+
+
+
+#rest2 footer {
+    background: #cb1017;
+}
+
+/* footer subnav */
+#rest2 .homeIcon {
+    margin-left: 55px;
+    /* background: #ffcb33 !important; */
+}
+
+#rest2 .specialsIcon {
+    margin-left: 30px;
+    margin-right: 25px;
+}
+
+#rest2 .logo {
+    width: 80%;
+    height: auto;
+    margin: 15px 0;
+    margin-left: 30px;
+}
+
+/* home */
+#rest2 .bar {
+    background: #ffcb33;
+    padding: 3px;
+    font-size: 20px;
+    margin-bottom: 15px;
+    margin-top: -30px;
+}
+
+#rest2 h2 {
+    font-family: "Rest1FontTitle", sans-serif;
+    font-size: 20pt;
+    text-align: center;
+}
+
+#rest2 .photoCount {
+    border-color: #ffcb33;
+}
+
+#rest2 .hours h2 {
+    color: #ffcb33;
+    border-bottom-color: #ffcb33;
+}
+
+#rest2 .hours p {
+    color: #ffcb33;
+}
+#rest2 .profile {
+    border-bottom-color: #ffcb33;
+}
+
+
 
 /* specials */
 
@@ -543,6 +643,81 @@ input[type=submit] {
 
 
 /* home */
+
+#rest3 {
+    font-family: "Rest1FontBody", sans-serif;
+    color: #fff;
+}
+
+/* general section */
+#rest3 .sectionContainer {
+    border-bottom-color: #ffcb33;
+    color: #fff;
+}
+
+#rest3 .profileBold {
+    font-family: "Rest1FontBodyBold", sans-serif;
+}
+
+/* header/footer */
+#rest3 header {
+    font-family: "Rest1FontTitle", sans-serif;
+    background: #cb1017;
+    border-bottom: solid 5px #ffcb33;
+}
+
+#rest3 footer {
+    background: #cb1017;
+}
+
+/* footer subnav */
+#rest3 .homeIcon {
+    margin-left: 55px;
+    /* background: #ffcb33 !important; */
+}
+
+#rest3 .specialsIcon {
+    margin-left: 30px;
+    margin-right: 25px;
+}
+
+#rest3 .logo {
+    width: 80%;
+    height: auto;
+    margin: 15px 0;
+}
+
+/* home */
+#rest3 .bar {
+    background: #ffcb33;
+    padding: 3px;
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+#rest3 h2 {
+    font-family: "Rest1FontTitle", sans-serif;
+    font-size: 20pt;
+    text-align: center;
+}
+
+#rest3 .photoCount {
+    border-color: #ffcb33;
+}
+
+#rest3 .hours h2 {
+    color: #ffcb33;
+    border-bottom-color: #ffcb33;
+}
+
+#rest3 .hours p {
+    color: #ffcb33;
+}
+#rest3 .profile {
+    border-bottom-color: #ffcb33;
+}
+
+
 
 
 /* specials */

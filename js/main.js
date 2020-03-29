@@ -60,7 +60,7 @@ $("#logo2").click(function(){
     gsap.to("#landing", {duration: 0.5, 
                          opacity: 0, 
                          onComplete: loadRest,
-                         onCompleteParams: ["#rest2", "#ff0000"]});
+                         onCompleteParams: ["#rest2", "#ffcb33"]});
 });
 
 $("#logo3").click(function(){
@@ -69,7 +69,7 @@ $("#logo3").click(function(){
     gsap.to("#landing", {duration: 0.5, 
                          opacity: 0, 
                          onComplete: loadRest,
-                         onCompleteParams: ["#rest3", "#ffff00"]});
+                         onCompleteParams: ["#rest3", "#ffcb33"]});
 });
 //----------------------------------------------------------------------
 //----------------------------------------------------------------------
