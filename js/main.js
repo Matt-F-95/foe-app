@@ -30,15 +30,15 @@ function loadLanding(){
     $("#landing").show();
 
     // animate on the landing  screen
-    gsap.from("#landing", {duration: 0.5, delay: 0.25, opacity: 0});
+    gsap.from("#landing", {duration: 1, delay: 0.25, opacity: 0});
 
     // animate the header down from the top of the screen
     gsap.from("#landing header", {duration: 0.5, delay: 0.25, y: -90})
 
     // animate each resturant logo onto the screen
-    gsap.from("#logo1", {duration: 0.5, delay: 1, x: -375, ease: "back"});
-    gsap.from("#logo2", {duration: 0.5, delay: 1.25, x: 375, ease: "back"})
-    gsap.from("#logo3", {duration: 0.5, delay: 1.5, x: -375, ease: "back"});
+    gsap.from("#logo1", {duration: 0.5, delay: 1, x: 375, ease: "back"});
+    gsap.from("#logo2", {duration: 0.5, delay: 1.25, x: -375, ease: "back"})
+    gsap.from("#logo3", {duration: 0.5, delay: 1.5, x: 375, ease: "back"});
 }
 
 //----------------------------------------------------------------------
@@ -198,11 +198,11 @@ function loadSection(prevSection, nextSection){
 }
 
 // RESERVATION SUBMIT BUTTON ///////////////////////////////////////////
-$("#btnSubmit").click(function(event){
+$(".btnSubmit").click(function(event){
     //prevents the default processing of the form
     event.preventDefault();
     //tell user the reservation was booked
-    alert("Reservation Made!")
+    alert("Reservation Made! See you soon!")
 });
 
 // HAMBURGER MENU ///////////////////////////////////////////

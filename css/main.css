@@ -260,9 +260,9 @@ footer img {
 
 /* home section */
 
-.home {
-    background: #690000;
-}
+/*  .home {
+    background: #3396f3;
+} */
 .photoAddress {
     padding: 0 15px;
     text-align: left;
@@ -442,7 +442,7 @@ input, select, textarea {
 }
 
 input[type=submit] {
-    background-color: #cb1017;
+    background-color: #1a1a1a;
     color: #FFF;
     font-size: 18px;
     margin-top: 15px;
@@ -458,6 +458,12 @@ input[type=submit] {
 }
 
 /* general section */
+
+#rest1 .home, .specials, .reservations {
+    background: #3396f3;
+}
+
+
 #rest1 .sectionContainer {
     border-bottom-color: #ffcb33;
     color: #fff;
@@ -470,12 +476,12 @@ input[type=submit] {
 /* header/footer */
 #rest1 header {
     font-family: "Rest1FontTitle", sans-serif;
-    background: #cb1017;
+    background: #3396f3;
     border-bottom: solid 5px #ffcb33;
 }
 
 #rest1 footer {
-    background: #cb1017;
+    background: #3396f3;
 }
 
 /* footer subnav */
@@ -507,6 +513,7 @@ input[type=submit] {
     font-family: "Rest1FontTitle", sans-serif;
     font-size: 20pt;
     text-align: center;
+
 }
 
 #rest1 .photoCount {
@@ -523,17 +530,16 @@ input[type=submit] {
 
 }
 
+#rest1 .reviews p {
+    text-transform: uppercase;
+    text-align: center;
+}
+
 #rest1 .profile {
     border-bottom-color: #ffcb33;
 }
 
-/* general specials/reservations */
 
-
-/* specials */
-
-
-/* reservations */
 
 
 
@@ -549,6 +555,12 @@ input[type=submit] {
 }
 
 /* general section */
+
+
+#rest2 .home, #rest2 .specials, #rest2 .reservations{
+    background: #690000;
+}
+
 #rest2 .sectionContainer {
     border-bottom-color: #ffcb33;
     color: #fff;
@@ -561,7 +573,7 @@ input[type=submit] {
 /* header/footer */
 #rest2 header {
     font-family: "Rest1FontTitle", sans-serif;
-    background: #cb1017;
+    background: #690000;
     border-bottom: solid 5px #ffcb33;
 }
 
@@ -577,7 +589,7 @@ input[type=submit] {
 
 
 #rest2 footer {
-    background: #cb1017;
+    background: #690000;
 }
 
 /* footer subnav */
@@ -609,7 +621,7 @@ input[type=submit] {
 
 #rest2 h2 {
     font-family: "Rest1FontTitle", sans-serif;
-    font-size: 20pt;
+    font-size: 18pt;
     text-align: center;
 }
 
@@ -625,24 +637,18 @@ input[type=submit] {
 #rest2 .hours p {
     color: #ffcb33;
 }
+
+#rest2 .reviews p {
+    text-transform: uppercase;
+    text-align: center;
+}
 #rest2 .profile {
     border-bottom-color: #ffcb33;
 }
 
 
 
-/* specials */
 
-
-/* reservations */
-
-
-
-/* RESTAURANT 3 STYLES ////////////////////////////////////// */
-
-
-
-/* home */
 
 #rest3 {
     font-family: "Rest1FontBody", sans-serif;
@@ -650,6 +656,17 @@ input[type=submit] {
 }
 
 /* general section */
+
+
+#rest3 .home, #rest3 .specials, #rest3 .reservations{
+    background: #1a1a1a;
+}
+
+
+#rest3 .home {
+    background: #1a1a1a;
+}
+
 #rest3 .sectionContainer {
     border-bottom-color: #ffcb33;
     color: #fff;
@@ -662,12 +679,12 @@ input[type=submit] {
 /* header/footer */
 #rest3 header {
     font-family: "Rest1FontTitle", sans-serif;
-    background: #cb1017;
+    background: #1a1a1a;
     border-bottom: solid 5px #ffcb33;
 }
 
 #rest3 footer {
-    background: #cb1017;
+    background: #1a1a1a;
 }
 
 /* footer subnav */
@@ -697,7 +714,7 @@ input[type=submit] {
 
 #rest3 h2 {
     font-family: "Rest1FontTitle", sans-serif;
-    font-size: 20pt;
+    font-size:18pt;
     text-align: center;
 }
 
@@ -708,6 +725,11 @@ input[type=submit] {
 #rest3 .hours h2 {
     color: #ffcb33;
     border-bottom-color: #ffcb33;
+}
+
+#rest3 .reviews p {
+    text-transform: uppercase;
+    text-align: center;
 }
 
 #rest3 .hours p {
