@@ -1,0 +1,34 @@
+
+* {
+    box-sizing: border-box;
+    
+}
+
+html{
+    width: 500px;
+    height: 750px;
+    margin-left: auto;
+    margin-right: auto;
+}
+body{
+    display: block;
+}
+
+#screen {
+    height: 667px;
+    width: 375px;
+}
+
+#app {
+    width: 100%;
+    height: 100%;
+}
+
+#phoneDisplay {
+    height: 720px;
+    padding-top: 29px;
+    padding-left: 12.2px;
+    background-image: url(../img/phone-display.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}

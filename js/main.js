@@ -51,7 +51,7 @@ $("#logo1").click(function(){
     gsap.to("#landing", {duration: 0.5, 
                          opacity: 0, 
                          onComplete: loadRest,
-                         onCompleteParams: ["#rest1", "#ffcb33"]});
+                         onCompleteParams: ["#rest1", "#690000"]});
 });
 
 $("#logo2").click(function(){
@@ -60,7 +60,7 @@ $("#logo2").click(function(){
     gsap.to("#landing", {duration: 0.5, 
                          opacity: 0, 
                          onComplete: loadRest,
-                         onCompleteParams: ["#rest2", "#ffcb33"]});
+                         onCompleteParams: ["#rest2", "#690000"]});
 });
 
 $("#logo3").click(function(){
@@ -69,7 +69,7 @@ $("#logo3").click(function(){
     gsap.to("#landing", {duration: 0.5, 
                          opacity: 0, 
                          onComplete: loadRest,
-                         onCompleteParams: ["#rest3", "#ffcb33"]});
+                         onCompleteParams: ["#rest3", "#690000"]});
 });
 //----------------------------------------------------------------------
 //----------------------------------------------------------------------
@@ -265,9 +265,10 @@ $("#btnNewRest").click(function(){
 });
 
 $("#btnContact").click(function(){
-    alert("Call Us: (905) 123-1234");
+    
 });
 
 $("#btnAbout").click(function(){
     alert("We are Us!");
+    $(".aboutSection").show();
 });

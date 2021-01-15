@@ -35,6 +35,7 @@
 body {
     font-size: 14px;
     overflow: hidden;
+
 }
 
 main {
@@ -42,6 +43,14 @@ main {
     width: 375px;
     height: 667px;
     box-shadow: -5px 0 10px rgba(0, 0, 0, 0.5);
+
+}
+
+.container {
+    background-image: url(../img/nexus_5x-edited.png);
+    z-index: 1;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 header {
@@ -57,7 +66,7 @@ section {
     top: 60px;
     width: 375px;
     height: 547px;
-    background: #FFF;
+    background: #fcfcfc;
     overflow: auto;
     padding: 20px;
 }
@@ -69,7 +78,7 @@ footer {
     bottom: 0;
 }
 
-.hamburger{
+.hamburger {
     cursor: pointer;
 }
 
@@ -82,9 +91,9 @@ footer {
 
 #splash header {
     font-family: "AppFont", sans-serif;
-    border-bottom: solid 5px #FFF;
+    border-bottom: solid 5px #fcfcfc;
     font-size: 35px;
-    color: #FFF;
+    color: #fcfcfc;
     padding: 20px;
     height: 90px;
     text-align: center;
@@ -98,24 +107,25 @@ footer {
     width: 173px;
     height: auto;
 }
+
 /* 
 #splash footer {
     height: 10px;
-    background: #cb1017;
+    background: #CB1219;
 } */
 
 /* LANDING SCREEN ///////////////////////////////////////// */
 
 #landing {
     font-family: "AppFont", sans-serif;
-    background: #cb1017;
+    background: #CB1219;
     padding-top: 110px;
 }
 
 #landing header {
     border-bottom: solid 5px #ffcb33;
-    background: #cb1017;
-    color: #FFF;
+    background: #CB1219;
+    color: #fcfcfc;
     height: 103px;
     padding: 20px;
     font-size: 30px;
@@ -130,10 +140,10 @@ footer {
 
 .landingLogos {
     position: relative;
-    border: solid 1px #fff;
-   
+    border: solid 1px #fcfcfc;
+    color: #fcfcfc;
     padding: 15px;
-    padding-top: 50px;
+    padding-top: 30px;
     margin: 20px;
     text-align: center;
 }
@@ -187,39 +197,44 @@ footer {
 
 #landing footer {
     height: 15px;
-    background: #ffcb33;
+    background: #CB1219;
 }
 
 /* MENU ////////////////////////////////////////////// */
-#menu{
-    background-color: #cb1017;
+#menu {
+    background-color: #CB1219;
     padding-top: 80px;
 }
 
-#menu header{
+#menu header {
     padding: 15px;
-    background-color: #cb1017;
-    color: #FFF;
+    background-color: #CB1219;
+    color: #fcfcfc;
     font-size: 16pt;
     font-weight: 900;
     border-bottom: solid 5px #ffcb33;
+    font-family: "AppFont", sans-serif;
 }
 
-#menu > div{
+#menu>div {
     font-size: 14pt;
     font-weight: 900;
-    color: #fff;
+    color: #fcfcfc;
     padding: 15px;
     border-bottom: #ffcb33 4px solid;
-    cursor:pointer;
+    cursor: pointer;
 }
 
-#menu > div:last-of-type{
+#menu>div:last-of-type {
     border-bottom-width: 0;
 }
 
+.menuOption {
+    font-family: "AppFont", sans-serif;
+}
 
-/* SHARED RESTAURANT STLYES /////////////////////////////////// */
+
+/* SHARED RESTAURANT STYLES /////////////////////////////////// */
 
 /* header/footer */
 
@@ -227,13 +242,16 @@ header img {
     width: 30px;
     height: auto;
     float: left;
-    margin-right: 85px;
+    margin-right: 45px;
 }
 
 
 
 header h1 {
-    color: #fff;
+    color: #fcfcfc;
+    font-size: 1.55rem;
+    text-align: left;
+
 }
 
 footer div {
@@ -242,7 +260,7 @@ footer div {
     overflow: auto;
     font-size: 12px;
     padding: 10px;
-    color: #FFF;
+    color: #fcfcfc;
 }
 
 footer img {
@@ -252,7 +270,6 @@ footer img {
 
 /* general section */
 .sectionContainer {
-    border: dotted 1px #000;
     text-align: center;
     overflow: auto;
     color: #000;
@@ -265,7 +282,7 @@ footer img {
 } */
 .photoAddress {
     padding: 0 15px;
-    text-align: left;
+    text-align: center;
 }
 
 .homeImg {
@@ -304,7 +321,7 @@ footer img {
 }
 
 .hours h2 {
-    margin-left: 60px;
+    margin-left: 50px;
     border-bottom: solid 1px #000;
     width: 210px;
 }
@@ -337,7 +354,7 @@ footer img {
 
 .reviews p:last-child {
     text-align: left;
-    margin-top: 10px;   
+    margin-top: 10px;
 }
 
 /* general specials/reservations */
@@ -346,20 +363,23 @@ footer img {
 /* specials section */
 
 .specials {
-    background: #690000;
-}
-.specials h2{
-    text-align: center;
-    color: #fff;
-    margin-bottom: 15px;
-    font-size: 20pt;
-   
+    background: #252525;
 }
 
-.specials h3{
-    text-align: left;
-    margin-left: 8px;
-    
+.specials h2 {
+    text-align: center;
+    color: #fcfcfc;
+    margin-bottom: 15px;
+    font-size: 20pt;
+
+}
+
+.specials h3 {
+    text-align: right;
+    margin-right: 8px;
+    padding-top: 5px;
+
+
 }
 
 .specials img {
@@ -367,23 +387,26 @@ footer img {
     height: auto;
     margin-left: 15px;
     margin-top: 5px;
+
 }
 
 .specials p {
     margin-left: 150px;
     margin-top: -85px;
-    font-weight: 900;
-    width: 130px;
+    width: 120px;
     text-align: center;
+    text-transform: uppercase;
 
 
 }
+
 .specials-bg {
-    background: #252525;
-    color: #fff;
+    background: rgb(113, 11, 0);
+    color: #fcfcfc;
     width: 300px;
     height: 140px;
     margin: auto;
+    border-radius: 2%;
 }
 
 #mon-spec {
@@ -393,12 +416,15 @@ footer img {
 #tues-spec {
     margin-bottom: 10px;
 }
+
 #wed-spec {
     margin-bottom: 10px;
 }
+
 #thurs-spec {
     margin-bottom: 10px;
 }
+
 #fri-spec {
     margin-bottom: 10px;
 }
@@ -408,7 +434,7 @@ footer img {
 
 .reservations {
     background: #690000;
-    color: #fff;
+    color: #fcfcfc;
 }
 
 /* reservations section */
@@ -417,7 +443,7 @@ footer img {
     text-align: left;
     padding: 10px;
     padding-top: 0;
-    
+
 }
 
 .reservations h2 {
@@ -431,19 +457,21 @@ label {
     margin-top: 10px;
 }
 
-input, select, textarea {
+input,
+select,
+textarea {
     padding: 5px;
     border: solid 1px;
     width: 100%;
     font-size: 14px;
     border-radius: 5px;
     color: #777;
-    background: #FFF;
+    background: #fcfcfc;
 }
 
 input[type=submit] {
     background-color: #1a1a1a;
-    color: #FFF;
+    color: #fcfcfc;
     font-size: 18px;
     margin-top: 15px;
 }
@@ -454,19 +482,22 @@ input[type=submit] {
 /* general */
 #rest1 {
     font-family: "Rest1FontBody", sans-serif;
-    color: #fff;
+
 }
 
 /* general section */
 
-#rest1 .home, .specials, .reservations {
-    background: #3396f3;
+#rest1 .home,
+.specials,
+.reservations {
+    background: #CB1219;
+
 }
 
 
 #rest1 .sectionContainer {
     border-bottom-color: #ffcb33;
-    color: #fff;
+    color: #fcfcfc;
 }
 
 #rest1 .profileBold {
@@ -476,12 +507,12 @@ input[type=submit] {
 /* header/footer */
 #rest1 header {
     font-family: "Rest1FontTitle", sans-serif;
-    background: #3396f3;
+    background: #CB1219;
     border-bottom: solid 5px #ffcb33;
 }
 
 #rest1 footer {
-    background: #3396f3;
+    background: #CB1219;
 }
 
 /* footer subnav */
@@ -496,9 +527,10 @@ input[type=submit] {
 }
 
 #rest1 .logo {
-    width: 80%;
+    width: 100%;
     height: auto;
-    margin: 15px 0;
+   
+    border-radius: 3%;
 }
 
 /* home */
@@ -507,12 +539,15 @@ input[type=submit] {
     padding: 3px;
     font-size: 20px;
     margin-bottom: 15px;
+    color: #252525;
+    font-weight: bolder;
 }
 
 #rest1 h2 {
     font-family: "Rest1FontTitle", sans-serif;
     font-size: 20pt;
     text-align: center;
+    color: #fcfcfc;
 
 }
 
@@ -522,7 +557,11 @@ input[type=submit] {
 
 #rest1 .hours h2 {
     color: #ffcb33;
-    border-bottom-color: #ffcb33;
+    border: none;
+}
+
+#rest1 .photoAddress {
+    margin-bottom: 30px;
 }
 
 #rest1 .hours p {
@@ -531,7 +570,6 @@ input[type=submit] {
 }
 
 #rest1 .reviews p {
-    text-transform: uppercase;
     text-align: center;
 }
 
@@ -551,19 +589,21 @@ input[type=submit] {
 
 #rest2 {
     font-family: "Rest1FontBody", sans-serif;
-    color: #fff;
+    color: #fcfcfc;
 }
 
 /* general section */
 
 
-#rest2 .home, #rest2 .specials, #rest2 .reservations{
-    background: #690000;
+#rest2 .home,
+#rest2 .specials,
+#rest2 .reservations {
+    background: #CB1219;
 }
 
 #rest2 .sectionContainer {
     border-bottom-color: #ffcb33;
-    color: #fff;
+    color: #fcfcfc;
 }
 
 #rest2 .profileBold {
@@ -573,23 +613,23 @@ input[type=submit] {
 /* header/footer */
 #rest2 header {
     font-family: "Rest1FontTitle", sans-serif;
-    background: #690000;
+    background: #CB1219;
     border-bottom: solid 5px #ffcb33;
 }
 
 #rest2 h1 {
-    color: #fff;
+    color: #fcfcfc;
     text-align: left;
 }
 
 #rest2 header img {
-    margin-right: 50px;
+    margin-right: 20px;
 }
 
 
 
 #rest2 footer {
-    background: #690000;
+    background: #CB1219;
 }
 
 /* footer subnav */
@@ -604,10 +644,9 @@ input[type=submit] {
 }
 
 #rest2 .logo {
-    width: 80%;
+    width: 100%;
     height: auto;
-    margin: 15px 0;
-    margin-left: 30px;
+    border-radius: 3%;
 }
 
 /* home */
@@ -617,12 +656,15 @@ input[type=submit] {
     font-size: 20px;
     margin-bottom: 15px;
     margin-top: -30px;
+    color: #252525;
+    font-weight: bolder;
 }
 
 #rest2 h2 {
     font-family: "Rest1FontTitle", sans-serif;
     font-size: 18pt;
     text-align: center;
+    color: #ffcb33;
 }
 
 #rest2 .photoCount {
@@ -631,17 +673,18 @@ input[type=submit] {
 
 #rest2 .hours h2 {
     color: #ffcb33;
-    border-bottom-color: #ffcb33;
+    border: none;
 }
 
 #rest2 .hours p {
-    color: #ffcb33;
+    color: #fcfcfc;
+    margin-bottom: 30px;
 }
 
 #rest2 .reviews p {
-    text-transform: uppercase;
     text-align: center;
 }
+
 #rest2 .profile {
     border-bottom-color: #ffcb33;
 }
@@ -652,24 +695,26 @@ input[type=submit] {
 
 #rest3 {
     font-family: "Rest1FontBody", sans-serif;
-    color: #fff;
+    color: #fcfcfc;
 }
 
 /* general section */
 
 
-#rest3 .home, #rest3 .specials, #rest3 .reservations{
-    background: #1a1a1a;
+#rest3 .home,
+#rest3 .specials,
+#rest3 .reservations {
+    background: #CB1219;
 }
 
 
 #rest3 .home {
-    background: #1a1a1a;
+    background: #CB1219;
 }
 
 #rest3 .sectionContainer {
     border-bottom-color: #ffcb33;
-    color: #fff;
+    color: #fcfcfc;
 }
 
 #rest3 .profileBold {
@@ -679,12 +724,12 @@ input[type=submit] {
 /* header/footer */
 #rest3 header {
     font-family: "Rest1FontTitle", sans-serif;
-    background: #1a1a1a;
+    background: #CB1219;
     border-bottom: solid 5px #ffcb33;
 }
 
 #rest3 footer {
-    background: #1a1a1a;
+    background: #CB1219;
 }
 
 /* footer subnav */
@@ -699,9 +744,12 @@ input[type=submit] {
 }
 
 #rest3 .logo {
-    width: 80%;
+    width: 100%;
     height: auto;
-    margin: 15px 0;
+    
+    border-radius: 3%;
+   
+    
 }
 
 /* home */
@@ -710,11 +758,13 @@ input[type=submit] {
     padding: 3px;
     font-size: 20px;
     margin-bottom: 15px;
+    color: #252525;
+    font-weight: bolder;
 }
 
 #rest3 h2 {
     font-family: "Rest1FontTitle", sans-serif;
-    font-size:18pt;
+    font-size: 18pt;
     text-align: center;
 }
 
@@ -724,17 +774,26 @@ input[type=submit] {
 
 #rest3 .hours h2 {
     color: #ffcb33;
-    border-bottom-color: #ffcb33;
+    border: none;
+    padding: 10px;
 }
 
 #rest3 .reviews p {
-    text-transform: uppercase;
     text-align: center;
 }
 
 #rest3 .hours p {
-    color: #ffcb33;
+    color: #fcfcfc;
 }
+#rest3 .address p {
+    color: #fcfcfc;
+}
+
+#rest3 .address h2 {
+    color: #ffcb33;
+    padding: 10px;
+}
+
 #rest3 .profile {
     border-bottom-color: #ffcb33;
 }

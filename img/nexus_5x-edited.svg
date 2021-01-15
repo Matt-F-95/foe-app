@@ -1,0 +1,33 @@
+<svg id="Nexus_5x" data-name="Nexus 5x" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="562.238" height="1000.033" viewBox="0 0 375 667">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #333;
+        filter: url(#filter);
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        fill-rule: evenodd;
+      }
+
+      .cls-2 {
+        opacity: 0.4;
+      }
+
+      .cls-3 {
+        fill: #fff;
+        opacity: 0.1;
+      }
+    </style>
+    <filter id="filter" x="-12" y="-8" width="398" height="684" filterUnits="userSpaceOnUse">
+      <feOffset result="offset" in="SourceAlpha"/>
+      <feGaussianBlur result="blur" stdDeviation="8.66"/>
+      <feFlood result="flood" flood-opacity="0.1"/>
+      <feComposite result="composite" operator="in" in2="blur"/>
+      <feBlend result="blend" in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <path id="Black_Phone" data-name="Black Phone" class="cls-1" d="M94.175,66.075H279.153c17.494,0,31.675,15.046,31.675,33.605V566.418c0,18.559-14.181,33.605-31.675,33.605H94.175c-17.494,0-31.675-15.046-31.675-33.605V99.68C62.5,81.121,76.681,66.075,94.175,66.075ZM73.692,120.557H299.214V546.066H73.692V120.557Z"/>
+  <path id="Speakers_Camera" data-name="Speakers &amp; Camera" class="cls-2" d="M110.642,83.933a4.471,4.471,0,1,1-4.223,4.465A4.349,4.349,0,0,1,110.642,83.933Zm35.473,0h81.926a4.471,4.471,0,0,1,0,8.929H146.115A4.471,4.471,0,0,1,146.115,83.933Zm0,491.1h81.926a4.471,4.471,0,0,1,0,8.929H146.115A4.471,4.471,0,0,1,146.115,575.031Z"/>
+  <path id="Sheen" class="cls-3" d="M73.48,120.542L299.831,358.055l-0.012-237.518Z"/>
+</svg>
